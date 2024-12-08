@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tercera_app/pantalla/ menu_principal.dart';
+import 'package:tercera_app/pantalla/bienvenida.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,11 +10,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Ejercicios',
-      theme: ThemeData(
-        primarySwatch: Colors.orange,
-      ),
-      home: MenuPrincipal(),
+      title: 'Tercera App',
+      theme: ThemeData(primarySwatch: Colors.pink),
+      home: PortadaScreen(),
     );
   }
 }

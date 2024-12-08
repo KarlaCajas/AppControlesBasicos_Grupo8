@@ -158,7 +158,7 @@ class _Ejercicio3ScreenState extends State<Ejercicio3Screen> {
   }
 }
 
-// Clase personalizada para el botón con diseño y efecto hover
+
 class _BotonMorado extends StatefulWidget {
   final String texto;
   final IconData icono;

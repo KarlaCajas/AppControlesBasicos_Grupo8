@@ -96,7 +96,7 @@ class _Ejercicio4ScreenState extends State<Ejercicio4Screen> {
     );
   }
 
-  // Botón para el cálculo de factorización
+
   Widget _crearBotonFactorizar(BuildContext context) {
     return _BotonMorado(
       texto: "Factorizar",
@@ -136,7 +136,7 @@ class _Ejercicio4ScreenState extends State<Ejercicio4Screen> {
     );
   }
 
-  // Botón para regresar al menú anterior
+
   Widget _crearBotonRegresar(BuildContext context) {
     return _BotonMorado(
       texto: "Regresar al Menú",
@@ -148,7 +148,7 @@ class _Ejercicio4ScreenState extends State<Ejercicio4Screen> {
   }
 }
 
-// Clase personalizada para el botón con diseño y efecto hover
+
 class _BotonMorado extends StatefulWidget {
   final String texto;
   final IconData icono;
